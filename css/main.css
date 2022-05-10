@@ -260,7 +260,7 @@ summary {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 14px;
   background-color: var(--primary-whity-color);
@@ -338,7 +338,7 @@ input {
 }
 
 .logo-header {
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -858,7 +858,7 @@ input {
 
 /* Footer address */
 .footer__logo {
-  font-family: "Raleway";
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -1152,7 +1152,7 @@ input {
   outline: none;
 }
 .form-textarea__textarea::placeholder {
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1166,7 +1166,7 @@ input {
   justify-content: center;
   align-items: baseline;
   margin-bottom: 30px;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

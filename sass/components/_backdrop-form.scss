@@ -86,7 +86,7 @@
   }
 
   &::placeholder {
-  font-family: 'Roboto';
+  font-family: $base-font;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -104,7 +104,7 @@
   align-items: baseline;
 
   margin-bottom: 30px;
-  font-family: 'Roboto';
+  font-family: $base-font;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

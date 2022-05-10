@@ -10,8 +10,12 @@
   --hero-border-color: #ececec;
   --color-icons: #afb1b8;
 }
+
+$logo-font: Raleway, sans-serif;
+$base-font: Roboto, sans-serif;
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: $base-font;
   font-style: normal;
   font-size: 14px;
   background-color: var(--primary-whity-color);
