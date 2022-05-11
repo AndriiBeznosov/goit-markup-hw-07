@@ -1,4 +1,4 @@
-.network__section-icon {
+.network {
   margin-left: 70px;
 }
 .network__title {
@@ -10,11 +10,11 @@
   margin-bottom: 20px;
 }
 
-.network__table {
+.network-footer {
   display: flex;
 }
 
-.network__item {
+.network-footer__item {
   margin-right: 10px;
 
   &:last-child {
@@ -22,7 +22,7 @@
   }
 }
 
-.network__link {
+.network-footer__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@
   }
 }
 
-.network__icon {
+.network-footer__icon {
   width: 20px;
   height: 20px;
 }

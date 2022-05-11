@@ -1,4 +1,4 @@
-.benefits__table {
+.benefits {
   display: flex;
 }
 .benefits__item {
@@ -10,7 +10,7 @@
   }
 }
 
-.benefits__icon {
+.benefits__block {
   display: flex;
   width: 270px;
   height: 120px;
@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
 }
-.benefits__icon--svg {
+.benefits__icon {
   height: 70px;
   width: 70px;
 }
@@ -31,6 +31,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
+  
 }
 .benefits__text {
   font-size: 14px;

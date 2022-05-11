@@ -21,17 +21,23 @@
     />
   </head>
   <body>
- <header>
-      <div class="container container-nav">
-        <a class="logo-header" href="./index.html">
-          <span class="logo-header__color">Web</span>
+    <header class="header">
+      <div class="container header__container">
+        <!-- logo -->
+        <a class="logo header-logo" href="./index.html">
+          <span class="header-logo__color">Web</span>
           Studio
         </a>
         <!-- Menu -->
         <nav>
           <ul class="nav-table">
             <li class="nav-table__item">
-              <a class="nav-table__link " href="./index.html">Студия</a>
+              <a
+                class="nav-table__link "
+                href="./index.html"
+              >
+                Студия
+              </a>
             </li>
             <li class="nav-table__item">
               <a class="nav-table__link nav-table__link--activ" href="./portfolio.html">Портфолио</a>
@@ -42,18 +48,18 @@
           </ul>
         </nav>
         <!-- Header-contacts -->
-        <ul class="table-info">
-          <li class="table-info__item">
-            <a class="table-info__link" href="mailto:info@devstudio.com">
-              <svg class="table-info__icon" width="16" height="16">
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="table-info__item">
-            <a class="table-info__link" href="tel:+380961111111">
-              <svg class="table-info__icon" width="16" height="16">
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+380961111111">
+              <svg class="contacts__icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -237,24 +243,24 @@
         </div>
       </section>
     </main>
-   <footer class="footer">
+  <footer class="footer">
       <!-- Footer address -->
       <div class="footer__container container">
         <div>
-          <a class="footer__logo" href="./index.html">
-            <span class="footer__logo--color">Web</span>
+          <a class="logo footer-logo" href="./index.html">
+            <span class="footer-logo__color">Web</span>
             Studio
           </a>
           <address class="footer__address">
-            <p class="footer__addres--text">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul>
-              <li class="footer__table--item">
-                <a class="footer__link" href="mailto:info@example.com">
+            <p class="footer__text">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="footer-contact">
+              <li class="footer-contact__item">
+                <a class="footer-contact__link" href="mailto:info@example.com">
                   info@example.com
                 </a>
               </li>
-              <li class="footer__table--item">
-                <a class="footer__link" href="tel:+380991111111">
+              <li class="footer-contact__item">
+                <a class="footer-contact__link " href="tel:+380991111111">
                   +38 099 111 11 11
                 </a>
               </li>
@@ -262,33 +268,33 @@
           </address>
         </div>
         <!-- Network footer -->
-        <div class="network__section-icon">
+        <div class="network">
           <h3 class="network__title">Присоединяйтесь</h3>
-          <ul class="network__table">
-            <li class="network__item">
-              <a class="network__link" href="">
-                <svg class="network__icon">
+          <ul class="network-footer">
+            <li class="network-footer__item">
+              <a class="network-footer__link" href="">
+                <svg class="network-footer__icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="network__item">
-              <a class="network__link" href="">
-                <svg class="network__icon">
+            <li class="network-footer__item">
+              <a class="network-footer__link" href="">
+                <svg class="network-footer__icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="network__item">
-              <a class="network__link" href="">
-                <svg class="network__icon">
+            <li class="network-footer__item">
+              <a class="network-footer__link" href="">
+                <svg class="network-footer__icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="network__item">
-              <a class="network__link" href="">
-                <svg class="network__icon">
+            <li class="network-footer__item">
+              <a class="network-footer__link" href="">
+                <svg class="network-footer__icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>

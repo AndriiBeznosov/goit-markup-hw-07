@@ -8,24 +8,18 @@
   align-items: baseline;
 }
 /* Footer address */
-.footer__logo {
-  font-family: $logo-font; 
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
+.footer-logo {
   color: var(--primary-whity-color);
-  text-decoration: none;
   display: block;
   margin-bottom: 20px;
 }
-.footer__logo--color {
+.footer-logo__color {
   color: var(--accent-color);
 }
 .footer__address {
   font-style: normal;
 }
-.footer__addres--text {
+.footer__text {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -33,11 +27,11 @@
   margin-bottom: 9px;
 }
 
-.footer__table--item:last-child {
+.footer-contact__item:last-child {
   margin-top: 9px;
 }
 
-.footer__link {
+.footer-contact__link {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;

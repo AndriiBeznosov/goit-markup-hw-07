@@ -1,15 +1,7 @@
-.work {
+.section__nopadding-top {
   padding-top: 0;
 }
-.work__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-.work__table {
+.work {
   display: flex;
   flex-wrap: wrap;
   list-style: none;

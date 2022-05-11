@@ -1,15 +1,8 @@
-.trainer {
+.section__trainer {
   background-color: var(--secondary-bgr-color);
 }
-.trainer__subtitle {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.trainer__table {
-  margin-top: 50px;
+
+.trainer {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
@@ -43,11 +36,11 @@
   color: var(--link-color);
   margin-top: 10px;
 }
-.trainer__table--icon {
+.social {
   display: flex;
   margin-top: 16px;
 }
-.trainer__item--icon {
+.social__item {
   margin-right: 10px;
 
   &:last-child {
@@ -55,7 +48,7 @@
   }
 }
 
-.trainer__icon--link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +71,7 @@
   }
 }
 
-.trainer__icon {
+.social__icon {
   width: 20px;
   height: 20px;
 }

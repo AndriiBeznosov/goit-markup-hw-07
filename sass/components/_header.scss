@@ -1,19 +1,15 @@
-.container-nav {
+.header__container {
   display: flex;
 }
-.logo-header {
-  font-family: $logo-font;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+.header-logo {
+ 
   color: var(--logo-color);
-  letter-spacing: 0.03em;
-  text-decoration: none;
+ 
   padding-top: 24px;
   margin-right: 93px;
   padding-bottom: 25px;
 }
-.logo-header__color {
+.header-logo__color {
   color: var(--accent-color);
 }
 
@@ -81,16 +77,16 @@
   transform: scale(1);
   opacity: 1;
 }
-.table-info {
+.contacts {
   display: flex;
   margin-left: auto;
 }
 
-.table-info__item:first-child {
+.contacts__item:first-child {
   margin-right: 50px;
 }
 
-.table-info__link {
+.contacts__link {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -112,6 +108,6 @@
   }
 }
 
-.table-info__icon {
+.contacts__icon {
   margin-right: 10px;
 }
